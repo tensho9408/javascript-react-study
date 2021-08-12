@@ -1,0 +1,73 @@
+.container {
+  border: 1px solid black;
+  margin-top: 20px;
+  margin-left: 5px;
+  padding-left: 50px;
+  border-radius: 8px;
+}
+.container h2 {
+  text-align: justify;
+}
+
+#input-area {
+  text-align: center;
+  margin-left: 5px;
+  padding: 50px;
+  border-radius: 8px;
+  background-color: lightgrey;
+  height: 200px;
+}
+#input-area > p {
+  font-family: sans-serif;
+  font-size: 42px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+#input-area input {
+  padding: 3px 20px;
+  height: 20px;
+  width: 30%;
+  border-radius: 12px;
+  border: none;
+  outline: none;
+}
+#input-area button {
+  font-size: 16px;
+  border-radius: 16px;
+  border: none;
+  cursor: pointer;
+}
+#input-area button:hover {
+  background-color: pink;
+}
+
+#task-title {
+  background-color: lightyellow;
+  width: 60px;
+  padding-left: 3px;
+}
+
+#down-title {
+  background-color: lightcoral;
+  width: 75px;
+  padding-left: 3px;
+}
+
+#logo {
+  margin-bottom: 30px;
+  font-size: 30px;
+  writing-mode: vertical-lr;
+  color: lightgoldenrodyellow;
+}
+
+.list-row button {
+  border-radius: 20px;
+  border: none;
+  margin: 3.5px;
+}
+
+.list-row button:hover {
+  background-color: pink;
+  color: #fff;
+  cursor: pointer;
+}
